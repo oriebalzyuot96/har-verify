@@ -1,0 +1,20 @@
+{
+  "name": "har-verify",
+  "version": "0.1.0",
+  "description": "Statically check that a generated typed API client still matches the API calls recorded in a HAR capture.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "har-verify": "src/cli.js"
+  },
+  "main": "src/verify.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
